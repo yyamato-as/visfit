@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "visfit"
+version = "0.1.0"
+description = ""
+authors = ["yyamato-as <yyamato.as@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8,<3.11"
+numpy = "^1.22.2"
+astropy = "^5.0.1"
+emcee = "^3.1.1"
+casatasks = "^6.4.3"
+casatools = "^6.4.3"
+ipython = "^8.1.1"
+matplotlib = "^3.5.1"
+galario = {git = "https://github.com/yyamato-as/galario.git", rev = "main"}
+casadata = "^2022.1.17"
+scipy = "^1.8.0"
+tqdm = "^4.63.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = "^22.1.0"
+ipykernel = "^6.9.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
