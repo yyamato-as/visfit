@@ -1,6 +1,6 @@
 .pytest_cache/
 .venv/
-visfit/__pychache__
-tests/__pychache__
+visfit/__pychache__/
+tests/__pychache__/
 *.log
 *.lock
