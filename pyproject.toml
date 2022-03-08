@@ -13,10 +13,13 @@ casatasks = "^6.4.3"
 casatools = "^6.4.3"
 ipython = "^8.1.1"
 matplotlib = "^3.5.1"
-galario = {git = "https://github.com/yyamato-as/galario.git", rev = "main"}
 casadata = "^2022.1.17"
 scipy = "^1.8.0"
 tqdm = "^4.63.0"
+corner = "^2.2.1"
+pathos = "^0.2.8"
+multiprocess = "^0.70.12"
+galario = {git = "https://github.com/yyamato-as/galario.git", rev = "main"}
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
